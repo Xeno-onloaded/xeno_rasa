@@ -1,5 +1,5 @@
 # xeno_rasa
-rasa nlu module developed by Xeno-onloaded.
+xeno nlu module developed by Xeno-onloaded.
 
 ## 配置Docker加速
 
