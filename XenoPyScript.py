@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from XenoNLPRequest import xeno_nlper, install_package
 
 import os

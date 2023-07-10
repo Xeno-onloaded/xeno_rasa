@@ -1,9 +1,10 @@
+# -*- coding: utf-8 -*-
 import requests
 import subprocess
 
 
 def install_package(package_name):
-    subprocess.check_call(["pip", "install", package_name])
+    subprocess.check_call(["pip3", "install", package_name])
 
 
 def xeno_nlper(text, suffix="/model/parse"):
