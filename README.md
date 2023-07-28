@@ -1,5 +1,5 @@
 # xeno_rasa
-[![Linzepore's Blog](https://img.shields.io/badge/xeno--rasa-v0.2.4-ffb02e.svg)](https://hub.docker.com/r/zepore/xeno_rasa)  
+Recommended: [![Linzepore's Blog](https://img.shields.io/badge/xeno--rasa-v0.2.4-ffb02e.svg)](https://hub.docker.com/r/zepore/xeno_rasa)  
 xeno nlu module developed by Xeno-onloaded Team.
 
 ## 配置Docker加速
