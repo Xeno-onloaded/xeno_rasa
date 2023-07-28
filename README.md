@@ -1,5 +1,7 @@
 # xeno_rasa
-xeno nlu module developed by Xeno-onloaded.
+xeno nlu module developed by Xeno-onloaded Team.
+
+[![Linzepore's Blog](https://img.shields.io/badge/xeno_rasa-v0.2.4-2023.07.27-ffb02e.svg)](https://hub.docker.com/r/zepore/xeno_rasa)
 
 ## 配置Docker加速
 
@@ -28,11 +30,11 @@ xeno nlu module developed by Xeno-onloaded.
 #拉取镜像
 docker pull zepore/xeno_rasa:[版本号]
 # 创建容器
-docker run -p 35005:5005 -u root --name=xeno_nlu -v [宿主机目录]:/[容器目录] -itd --privileged=true zepore/xeno_rasa:v0.2.3
+docker run -p 35005:5005 -u root --name=xeno_nlu -v [宿主机目录]:/[容器目录] -itd --privileged=true zepore/xeno_rasa:v0.2.4
 
 ### 例子
-docker pull zepore/xeno_rasa:v0.2.3
-docker run -p 35005:5005 -u root --name="xeno_nlu" -v A:/Data_Docker/rasa_demo/xeno_data:/xeno_data -itd --privileged=true zepore/xeno_rasa:v0.2.3
+docker pull zepore/xeno_rasa:v0.2.4
+docker run -p 35005:5005 -u root --name="xeno_nlu" -v A:/Data_Docker/rasa_demo/xeno_data:/xeno_data -itd --privileged=true zepore/xeno_rasa:v0.2.4
 ```
 
 ### 3.启动并容器，启动模型
